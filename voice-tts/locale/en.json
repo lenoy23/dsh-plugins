@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Read replies aloud",
+    "description": "Speaks agent replies with the Windows speech synthesizer. A read-aloud button appears on every finished reply.",
+    "detail": "docs/DETAIL.md"
+  }
+}
