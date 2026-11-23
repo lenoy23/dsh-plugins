@@ -1,0 +1,161 @@
+{
+    "title":  {
+                  "en":  "Lenoy23 DSH plugins",
+                  "ru":  "Плагины DSH от lenoy23"
+              },
+    "format":  1,
+    "description":  {
+                        "en":  "Personal DSH plugins: account balance in the sidebar, voice replies, Whisper speech input.",
+                        "ru":  "Личные плагины DSH: баланс аккаунта в сайдбаре, озвучка ответов, распознавание речи Whisper."
+                    },
+    "plugins":  [
+                    {
+                        "repository":  {
+                                           "url":  "https://github.com/lenoy23/dsh-plugins",
+                                           "directory":  "balance-chip"
+                                       },
+                        "versions":  [
+                                         {
+                                             "publishTimestamp":  1795483308,
+                                             "source":  {
+                                                            "path":  "balance-chip",
+                                                            "url":  "https://github.com/lenoy23/dsh-plugins",
+                                                            "commit":  "c6fea151c3cca6cfaa153ce43b39b3201606de2d",
+                                                            "type":  "git"
+                                                        },
+                                             "engines":  {
+
+                                                         },
+                                             "version":  "1.0.0"
+                                         }
+                                     ],
+                        "title":  {
+                                      "en":  "Shows the signed-in account balance at the sidebar foot.",
+                                      "ru":  "Shows the signed-in account balance at the sidebar foot."
+                                  },
+                        "name":  "@local/balance-chip",
+                        "description":  {
+                                            "en":  "Shows the signed-in account balance at the sidebar foot.",
+                                            "ru":  "Shows the signed-in account balance at the sidebar foot."
+                                        },
+                        "author":  "lenoy23",
+                        "icon":  "balance-chip/icon.svg",
+                        "metadata":  {
+                                         "labels":  [
+
+                                                    ],
+                                         "sortKeys":  {
+
+                                                      },
+                                         "keywords":  [
+                                                          "dsh",
+                                                          "plugin"
+                                                      ]
+                                     }
+                    },
+                    {
+                        "repository":  {
+                                           "url":  "https://github.com/lenoy23/dsh-plugins",
+                                           "directory":  "voice-tts"
+                                       },
+                        "versions":  [
+                                         {
+                                             "publishTimestamp":  1795483308,
+                                             "source":  {
+                                                            "path":  "voice-tts",
+                                                            "url":  "https://github.com/lenoy23/dsh-plugins",
+                                                            "commit":  "c6fea151c3cca6cfaa153ce43b39b3201606de2d",
+                                                            "type":  "git"
+                                                        },
+                                             "engines":  {
+
+                                                         },
+                                             "version":  "0.1.0"
+                                         }
+                                     ],
+                        "title":  {
+                                      "en":  "Reads agent replies aloud with the Windows speech synthesizer, and speaks them in a chosen voice",
+                                      "ru":  "Reads agent replies aloud with the Windows speech synthesizer, and speaks them in a chosen voice"
+                                  },
+                        "name":  "@local/voice-tts",
+                        "description":  {
+                                            "en":  "Reads agent replies aloud with the Windows speech synthesizer, and speaks them in a chosen voice",
+                                            "ru":  "Reads agent replies aloud with the Windows speech synthesizer, and speaks them in a chosen voice"
+                                        },
+                        "author":  "lenoy23",
+                        "icon":  "voice-tts/icon.svg",
+                        "metadata":  {
+                                         "labels":  [
+
+                                                    ],
+                                         "sortKeys":  {
+
+                                                      },
+                                         "keywords":  [
+                                                          "dsh",
+                                                          "plugin"
+                                                      ]
+                                     }
+                    },
+                    {
+                        "repository":  {
+                                           "url":  "https://github.com/lenoy23/dsh-plugins",
+                                           "directory":  "whisper-stt"
+                                       },
+                        "versions":  [
+                                         {
+                                             "publishTimestamp":  1795483308,
+                                             "source":  {
+                                                            "path":  "whisper-stt",
+                                                            "url":  "https://github.com/lenoy23/dsh-plugins",
+                                                            "commit":  "c6fea151c3cca6cfaa153ce43b39b3201606de2d",
+                                                            "type":  "git"
+                                                        },
+                                             "engines":  {
+
+                                                         },
+                                             "version":  "0.1.0"
+                                         }
+                                     ],
+                        "title":  {
+                                      "en":  "Local Whisper speech recognition for the DSH voice input, with Russian support",
+                                      "ru":  "Local Whisper speech recognition for the DSH voice input, with Russian support"
+                                  },
+                        "name":  "@local/whisper-stt",
+                        "description":  {
+                                            "en":  "Local Whisper speech recognition for the DSH voice input, with Russian support",
+                                            "ru":  "Local Whisper speech recognition for the DSH voice input, with Russian support"
+                                        },
+                        "author":  "lenoy23",
+                        "icon":  "whisper-stt/icon.svg",
+                        "metadata":  {
+                                         "labels":  [
+
+                                                    ],
+                                         "sortKeys":  {
+
+                                                      },
+                                         "keywords":  [
+                                                          "dsh",
+                                                          "plugin"
+                                                      ]
+                                     }
+                    }
+                ],
+    "metadata":  {
+                     "categories":  {
+                                        "tools":  {
+                                                      "title":  {
+                                                                    "en":  "Tools",
+                                                                    "ru":  "Инструменты"
+                                                                }
+                                                  }
+                                    },
+                     "labels":  {
+
+                                },
+                     "sortKeys":  {
+
+                                  }
+                 }
+}
