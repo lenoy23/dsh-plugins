@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Account balance",
+    "description": "Shows the signed-in account balance at the sidebar foot and refreshes it every 30 seconds.",
+    "detail": "docs/DETAIL.md"
+  }
+}
