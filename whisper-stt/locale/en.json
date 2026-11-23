@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Whisper local speech recognition",
+    "description": "Adds an offline Whisper provider to voice input. Russian and eight other languages are recognized locally on this computer; audio never leaves it.",
+    "detail": "docs/DETAIL.md"
+  }
+}
