@@ -1,0 +1,12 @@
+- insert:
+    - id: whisper-stt
+      name: '@local/whisper-stt'
+      config:
+        binaryPath: 'D:\AI\whisper\bin\Release\whisper-cli.exe'
+        modelPath: 'D:\AI\whisper\models\ggml-small.bin'
+        threads: 4
+- id: speech-to-text
+  name: '@deepseek-ai/dsh-experimental-speech-to-text'
+  config:
+    defaultProvider: whisper-local
+    language: ru
