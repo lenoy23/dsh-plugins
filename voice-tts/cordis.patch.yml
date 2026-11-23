@@ -1,0 +1,12 @@
+- insert:
+    - id: voice-tts
+      name: '@local/voice-tts'
+      config:
+        # neural = живые нейроголоса Microsoft (нужна сеть)
+        # sapi   = старый голос Windows (офлайн, звучит роботом)
+        engine: neural
+        voice: 'ru-RU-SvetlanaNeural'
+        rate: 0
+        pitch: 0
+        fallbackToSapi: true
+        maxChars: 4000
